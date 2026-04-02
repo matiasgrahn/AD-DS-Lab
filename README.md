@@ -21,15 +21,15 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
    *  Result: The technician could successfully reset user passwords and enforce "User must change password at next logon," but       was blocked from unauthorized actions like deleting accounts (following the Principle of Least Privilege).
 
 2. Scenario: Automated Resource Access (GPO)
-   * dd
-   * dd
-   * dd
+   * Goal: Ensure new employees have immediate access to departmental files without manual IT intervention.
+   * Implementation: Configured a Group Policy Object (GPO) for Drive Mapping to automatically connect network shares based       on the user's security group.
+   * Result: Upon login, the correct network drives appear automatically in the user's File Explorer.
 
 3. Scenario: Workstation Hardening & Security
-   * dd
-   * dd
-   * dd
+   * Goal: Prevent standard users from accessing sensitive system settings or running potentially harmful commands.
+   * Implementation: Applied GPOs to restrict access to the Control Panel and the Command Prompt (CMD) for non-                    administrative accounts.
+   * Result: Standard users receive a "This operation has been cancelled due to restrictions" notification when attempting         to access these tools.
 4. Scenario: Core Infrastructure & Connectivity
-   * dd
-   * dd
-   * dd
+   * Goal: Establish a stable foundation where workstations can discover and join the corporate domain.
+   * Implementation: Configured Static IP addressing and DNS settings on the Domain Controller to ensure reliable name             resolution within the lab network.
+   * Result: Successful Domain Join for client workstations and seamless communication between the server and its nodes.
