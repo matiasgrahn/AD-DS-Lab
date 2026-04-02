@@ -50,7 +50,7 @@ I designed and implemented a scalable Organizational Unit (OU) (test) hierarchy 
 ![Picture of Z drive](./Picture_of_C_drive.png)
 
 ### User-view, You can now physically see and access Z-Drive
-![Picture of Physical Z drive](./)
+![Picture of Physical Z drive](./See_Z_drive.png)
 
 ## 3. Scenario: Workstation Hardening & Security
    * Goal: Prevent standard users from accessing sensitive system settings or running potentially harmful commands.
