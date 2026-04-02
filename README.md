@@ -15,7 +15,7 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
 * Networking: DNS & Static IP configuration within a private lab network
 
 ## 🚀 Scenarios & Problem solving
-1. Scenario: The "Forgotten Password" & Helpdesk Delegation
+### 1. Scenario: The "Forgotten Password" & Helpdesk Delegation
    *  Goal: Enable a Helpdesk technician to assist users with password resets without granting full Domain Admin privileges.
    *  Implementation: Used the Active Directory Delegation of Control Wizard to assign specific Reset Password permissions         to the "Helpdesk" user within a designated OU.
    *  Result: The technician could successfully reset user passwords and enforce "User must change password at next logon," but       was blocked from unauthorized actions like deleting accounts (following the Principle of Least Privilege).
@@ -25,11 +25,11 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
    * Implementation: Configured a Group Policy Object (GPO) for Drive Mapping to automatically connect network shares based       on the user's security group.
    * Result: Upon login, the correct network drives appear automatically in the user's File Explorer.
 
-3. Scenario: Workstation Hardening & Security
+### 3. Scenario: Workstation Hardening & Security
    * Goal: Prevent standard users from accessing sensitive system settings or running potentially harmful commands.
    * Implementation: Applied GPOs to restrict access to the Control Panel and the Command Prompt (CMD) for non-                    administrative accounts.
    * Result: Standard users receive a "This operation has been cancelled due to restrictions" notification when attempting         to access these tools.
-4. Scenario: Core Infrastructure & Connectivity
+### 4. Scenario: Core Infrastructure & Connectivity
    * Goal: Establish a stable foundation where workstations can discover and join the corporate domain.
    * Implementation: Configured Static IP addressing and DNS settings on the Domain Controller to ensure reliable name             resolution within the lab network.
    * Result: Successful Domain Join for client workstations and seamless communication between the server and its nodes.
