@@ -20,7 +20,7 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
    *  Implementation: Used the Active Directory Delegation of Control Wizard to assign specific Reset Password permissions to         the "Helpdesk" user within a designated OU.
    *  Result: The technician could successfully reset user passwords and enforce "User must change password at next logon," but       was blocked from unauthorized actions like deleting accounts (following the Principle of Least Privilege).
 
-# 2. Scenario: Automated Resource Access (GPO)
+### 2. Scenario: Automated Resource Access (GPO)
    * Goal: Ensure new employees have immediate access to departmental files without manual IT intervention.
    * Implementation: Configured a Group Policy Object (GPO) for Drive Mapping to automatically connect network shares based       on the user's security group.
    * Result: Upon login, the correct network drives appear automatically in the user's File Explorer.
