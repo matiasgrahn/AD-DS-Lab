@@ -33,3 +33,8 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
    * Goal: Establish a stable foundation where workstations can discover and join the corporate domain.
    * Implementation: Configured Static IP addressing and DNS settings on the Domain Controller to ensure reliable name             resolution within the lab network.
    * Result: Successful Domain Join for client workstations and seamless communication between the server and its nodes.
+
+## 💡 Key Learnings
+* **Identity & Access Management (IAM): **
+* **Security-First Mindset: **
+* **Infrastucture Troubleshooting: ** 
