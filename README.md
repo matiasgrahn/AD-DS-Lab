@@ -17,7 +17,13 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
 ## 🛠️ Installation & Setup
 ### Installing AD DS Role
 Before implementing the scenarios, I prepared the Domain Controller (DC01).
+
 ![AD DS Role installation](./InstallAD_DS.png)
+
+### Domain Configuration
+Next, I configured the server as the first Domain Controller in a new forest.
+
+![Domain configuration WIzard](./Domain_configuration.png)
 
 ## 🚀 Scenarios & Problem solving
 ### 1. Scenario: The "Forgotten Password" & Helpdesk Delegation
