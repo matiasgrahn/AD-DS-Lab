@@ -14,6 +14,11 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
 * **Virtualization:** VMware / VirtualBox
 * **Networking:** DNS & Static IP configuration within a private lab network
 
+## 🛠️ Installation & Setup
+### Installing AD DS Role
+Before implementing the scenarios, I prepared the Domain Controller (DC01).
+![AD DS Role installation](./
+
 ## 🚀 Scenarios & Problem solving
 ### 1. Scenario: The "Forgotten Password" & Helpdesk Delegation
    *  Goal: Enable a Helpdesk technician to assist users with password resets without granting full Domain Admin privileges.
