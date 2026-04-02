@@ -28,7 +28,7 @@ Next, I configured the server as the first Domain Controller in a new forest.
 ### 📂 Active Directory Organization & IAM
 I designed and implemented a scalable Organizational Unit (OU) (test) hierarchy to manage corporate identities effectively.
 
-![AD Structure](./111248.png)
+![AD Structure](./11248.png)
 
 ## 🚀 Scenarios & Problem solving
 ### 1. Scenario: The "Forgotten Password" & Helpdesk Delegation
