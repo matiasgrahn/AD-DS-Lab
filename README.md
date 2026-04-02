@@ -35,6 +35,6 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
    * Result: Successful Domain Join for client workstations and seamless communication between the server and its nodes.
 
 ## 💡 Key Learnings
-* **Identity & Access Management (IAM): **
+* **Identity & Access Management (IAM): ** Deepened understanding of managing user lifecycles and permissions securely.
 * **Security-First Mindset: **
 * **Infrastucture Troubleshooting: ** 
