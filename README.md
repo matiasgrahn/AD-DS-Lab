@@ -47,10 +47,10 @@ I designed and implemented a scalable Organizational Unit (OU) (test) hierarchy 
    * Implementation: Configured a Group Policy Object (GPO) for Drive Mapping to automatically connect network shares based       on the user's security group.
    * Result: Upon login, the correct network drives appear automatically in the user's File Explorer.
 ## End-User View: Successfully Mapped Mapped Network Drive via GPO
-[Picture of Z drive](./Picture_of_C_drive.png)
+![Picture of Z drive](./Picture_of_C_drive.png)
 
 ## User-view, You can now physically see and access Z-Drive
-[Picture of Physical Z drive](./)
+![Picture of Physical Z drive](./)
 
 ### 3. Scenario: Workstation Hardening & Security
    * Goal: Prevent standard users from accessing sensitive system settings or running potentially harmful commands.
