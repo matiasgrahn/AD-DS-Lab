@@ -35,8 +35,12 @@ I designed and implemented a scalable Organizational Unit (OU) (test) hierarchy 
    *  Goal: Enable a Helpdesk technician to assist users with password resets without granting full Domain Admin privileges.
    *  Implementation: Used the Active Directory Delegation of Control Wizard to assign specific Reset Password permissions         to the "Helpdesk" user within a designated OU.
    *  Result: The technician could successfully reset user passwords and enforce "User must change password at next logon,"       but was blocked from unauthorized actions like deleting accounts (following the Principle of Least Privilege).
-![Changing Password](./Salasanan_Vaihto.png) ![Password successfully changed](./Salasanan_vaihto_2.png)
+## User managed to change Password
+![Changing Password](./Salasanan_Vaihto.png)
 
+![Password successfully changed](./Salasanan_vaihto_2.png)
+## When the same user tries to Delete a user.
+![Trying to deleta a user](./Trying_to_delete_user.png)
 ### 2. Scenario: Automated Resource Access (GPO)
    * Goal: Ensure new employees have immediate access to departmental files without manual IT intervention.
    * Implementation: Configured a Group Policy Object (GPO) for Drive Mapping to automatically connect network shares based       on the user's security group.
