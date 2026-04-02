@@ -18,7 +18,7 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
 ### 1. Scenario: The "Forgotten Password" & Helpdesk Delegation
    *  Goal: Enable a Helpdesk technician to assist users with password resets without granting full Domain Admin privileges.
    *  Implementation: Used the Active Directory Delegation of Control Wizard to assign specific Reset Password permissions         to the "Helpdesk" user within a designated OU.
-   *  Result: The technician could successfully reset user passwords and enforce "User must change password at next logon," but       was blocked from unauthorized actions like deleting accounts (following the Principle of Least Privilege).
+   *  Result: The technician could successfully reset user passwords and enforce "User must change password at next logon,"       but was blocked from unauthorized actions like deleting accounts (following the Principle of Least Privilege).
 
 ### 2. Scenario: Automated Resource Access (GPO)
    * Goal: Ensure new employees have immediate access to departmental files without manual IT intervention.
@@ -35,6 +35,6 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
    * Result: Successful Domain Join for client workstations and seamless communication between the server and its nodes.
 
 ## 💡 Key Learnings
-**Identity & Access Management (IAM): ** Deepened understanding of managing user lifecycles and permissions securely.
+* **Identity & Access Management (IAM): ** Deepened understanding of managing user lifecycles and permissions securely.
 * **Security-First Mindset: ** Implementing the Principle of Least Privilege to minimize internal risks.
 * **Infrastucture Troubleshooting: ** Solving real-world connectivity and permission issues (DNS, UAC, Inheritance).
