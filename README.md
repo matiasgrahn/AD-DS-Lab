@@ -25,6 +25,11 @@ Next, I configured the server as the first Domain Controller in a new forest.
 
 ![Domain configuration WIzard](./Domain_configuration.png)
 
+### 📂 Active Directory Organization & IAM
+I designed and implemented a scalable Organizational Unit (OU) (test) hierarchy to manage corporate identities effectively.
+
+![AD Structure](./111248.png)
+
 ## 🚀 Scenarios & Problem solving
 ### 1. Scenario: The "Forgotten Password" & Helpdesk Delegation
    *  Goal: Enable a Helpdesk technician to assist users with password resets without granting full Domain Admin privileges.
