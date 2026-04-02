@@ -8,3 +8,8 @@ This project focuses on designing and implementing a secure Active Directory Dom
 The lab simulates a corporate IT infrastructure where support roles (Helpdesk) are granted granular permissions without compromising domain security.
 
 🛠️ Technologies & Tools
+*Operating System: Windows Server 2022
+*Directory Services: Active Directory (AD DS)
+*Policy Management: Group Policy Objects (GPO)
+*Virtualization: VMware / VirtualBox
+*Networking: DNS & Static IP configuration within a private lab network
