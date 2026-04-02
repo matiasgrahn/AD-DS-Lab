@@ -35,12 +35,13 @@ I designed and implemented a scalable Organizational Unit (OU) (test) hierarchy 
    *  Goal: Enable a Helpdesk technician to assist users with password resets without granting full Domain Admin privileges.
    *  Implementation: Used the Active Directory Delegation of Control Wizard to assign specific Reset Password permissions         to the "Helpdesk" user within a designated OU.
    *  Result: The technician could successfully reset user passwords and enforce "User must change password at next logon,"       but was blocked from unauthorized actions like deleting accounts (following the Principle of Least Privilege).
-## User managed to change Password
+## User tries to change Password.
 ![Changing Password](./Salasanan_Vaihto.png)
-
+## User changed password successfully.
 ![Password successfully changed](./Salasanan_vaihto_2.png)
 ## When the same user tries to Delete a user.
 ![Trying to deleta a user](./Trying_to_delete_user.png)
+
 ### 2. Scenario: Automated Resource Access (GPO)
    * Goal: Ensure new employees have immediate access to departmental files without manual IT intervention.
    * Implementation: Configured a Group Policy Object (GPO) for Drive Mapping to automatically connect network shares based       on the user's security group.
@@ -50,6 +51,8 @@ I designed and implemented a scalable Organizational Unit (OU) (test) hierarchy 
    * Goal: Prevent standard users from accessing sensitive system settings or running potentially harmful commands.
    * Implementation: Applied GPOs to restrict access to the Control Panel and the Command Prompt (CMD) for non-                    administrative accounts.
    * Result: Standard users receive a "This operation has been cancelled due to restrictions" notification when attempting         to access these tools.
+## Trying to open CMD and Control Panel as a restricted user.
+![Trying to open CMD and control panel](./Trying_to_openCMD.png)
 ### 4. Scenario: Core Infrastructure & Connectivity
    * Goal: Establish a stable foundation where workstations can discover and join the corporate domain.
    * Implementation: Configured Static IP addressing and DNS settings on the Domain Controller to ensure reliable name             resolution within the lab network.
