@@ -36,5 +36,5 @@ The lab simulates a corporate IT infrastructure where support roles (Helpdesk) a
 
 ## 💡 Key Learnings
 * **Identity & Access Management (IAM): ** Deepened understanding of managing user lifecycles and permissions securely.
-* **Security-First Mindset: **
-* **Infrastucture Troubleshooting: ** 
+* **Security-First Mindset: ** Implementing the Principle of Least Privilege to minimize internal risks.
+* **Infrastucture Troubleshooting: ** Solving real-world connectivity and permission issues (DNS, UAC, Inheritance).
